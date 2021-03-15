@@ -1,11 +1,15 @@
 import React from 'react'
 import {View, Text} from 'react-native'
 import Primeiro from './components/Primeiro'
+import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
 
 export default () => (
     <View>
         <Primeiro> </Primeiro> 
         <Text>{1+1}</Text>
+        <X />
+        <Comp1></Comp1>
+        <Comp2></Comp2>   
     </View> 
 ) // Pode-se utilizar da seguinte forma o componente <Primeiro /> O que está dentro das chaves é intepretado com um código JS 
 
