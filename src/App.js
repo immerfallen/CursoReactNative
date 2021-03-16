@@ -1,25 +1,30 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
-import Primeiro from './components/Primeiro'
-import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
+// import Primeiro from './components/Primeiro'
+// import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
+import MinMax from './components/MinMax'
 
 export default () => (
     <View style={style.App}>
-        <Primeiro> </Primeiro> 
+        {/* <Primeiro> </Primeiro> 
         <Text>{1+1}</Text>
         <X />
         <Comp1></Comp1>
-        <Comp2></Comp2>   
+        <Comp2></Comp2>    */}
+        <MinMax  min="3" max="20"/> 
+        <MinMax  min="1" max="90"/> 
     </View> 
 ) // Pode-se utilizar da seguinte forma o componente <Primeiro /> O que está dentro das chaves é intepretado com um código JS 
 
 
 const style = StyleSheet.create({
-    App: {
-        backgroundColor: 'red',
+    App: {       
         flexGrow:1,
         justifyContent:"center",
-        alignItems: "center"
+        alignItems: "center",
+        padding:20,
+        
+        
     }
 })
 
