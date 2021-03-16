@@ -2,7 +2,7 @@ import React from 'react'
 import {Text} from 'react-native'
 import Estilo from './estilo'
 
-export default (props) => {
+export default props => { {/* Padrão é chamar de props as propriedades*/}
     console.warn(props) //Lá em App.js passamos como parâmetros os valores que queremos instanciar esse objeto
 return (
     <Text style={Estilo.txtG}> 

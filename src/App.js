@@ -3,6 +3,7 @@ import {View, Text, StyleSheet} from 'react-native'
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
 import MinMax from './components/MinMax'
+import Aleatorio from './components/Aleatorio'
 
 export default () => (
     <View style={style.App}>
@@ -11,8 +12,9 @@ export default () => (
         <X />
         <Comp1></Comp1>
         <Comp2></Comp2>    */}
-        <MinMax  min="3" max="20"/> 
-        <MinMax  min="1" max="90"/> 
+        {/* <MinMax  min="3" max="20"/> 
+        <MinMax  min="1" max="90"/>  */}
+        <Aleatorio min={100} max={200}></Aleatorio>
     </View> 
 ) // Pode-se utilizar da seguinte forma o componente <Primeiro /> O que está dentro das chaves é intepretado com um código JS 
 
