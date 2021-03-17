@@ -1,11 +1,13 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
+import Contador from './components/Contador'
+
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
 // import MinMax from './components/MinMax'
 // import Aleatorio from './components/Aleatorio'
 // import Principal from './components/Titulo'
-import Botao from './components/Botao'
+// import Botao from './components/Botao'
 
 export default () => (
     <View style={style.App}>
@@ -18,7 +20,8 @@ export default () => (
         <MinMax  min="1" max="90"/>  */}
         {/* <Aleatorio min={100} max={200}></Aleatorio> */}
         {/* <Principal principal="Cadastro de Produto" secundario="Entre com os dados para cadastrar o produto:"></Principal> Se quise envolver mais de uma propriedade dentro da mesma tag, eles tem que estar envolvidos e uma View */}
-        <Botao></Botao>
+        {/* <Botao></Botao> */}
+        <Contador inicial={3} passo={4}></Contador>
     </View> 
 
     // Uma das possiblidade de chamar mais de uma props dentro de um unico elemento é a seguinte:
