@@ -1,6 +1,7 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 import Contador from './components/Contador'
+import Pai from './components/direta/Pai'
 
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
@@ -21,7 +22,9 @@ export default () => (
         {/* <Aleatorio min={100} max={200}></Aleatorio> */}
         {/* <Principal principal="Cadastro de Produto" secundario="Entre com os dados para cadastrar o produto:"></Principal> Se quise envolver mais de uma propriedade dentro da mesma tag, eles tem que estar envolvidos e uma View */}
         {/* <Botao></Botao> */}
-        <Contador inicial={3} passo={4}></Contador>
+        {/* <Contador inicial={3} passo={4}></Contador> */}
+        <Pai/>
+
     </View> 
 
     // Uma das possiblidade de chamar mais de uma props dentro de um unico elemento é a seguinte:
