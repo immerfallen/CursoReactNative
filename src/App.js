@@ -1,7 +1,6 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
-
-import ContadorV2 from './components/contador/ContadorV2'
+import Diferenciar from './components/Diferenciar'
 
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
@@ -24,7 +23,8 @@ export default () => (
         {/* <Botao></Botao> */}
         {/* <Contador inicial={3} passo={4}></Contador> */}
         {/* <Pai/> */}
-        <ContadorV2 />
+        {/* <ContadorV2 /> */}
+        <Diferenciar/>
 
 
     </View> 
