@@ -1,7 +1,7 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
-import Contador from './components/Contador'
-import Pai from './components/indireta/Pai'
+
+import ContadorV2 from './components/contador/ContadorV2'
 
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
@@ -23,7 +23,9 @@ export default () => (
         {/* <Principal principal="Cadastro de Produto" secundario="Entre com os dados para cadastrar o produto:"></Principal> Se quise envolver mais de uma propriedade dentro da mesma tag, eles tem que estar envolvidos e uma View */}
         {/* <Botao></Botao> */}
         {/* <Contador inicial={3} passo={4}></Contador> */}
-        <Pai/>
+        {/* <Pai/> */}
+        <ContadorV2 />
+
 
     </View> 
 
