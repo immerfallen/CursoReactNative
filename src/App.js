@@ -1,6 +1,6 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
-import Diferenciar from './components/Diferenciar'
+import {StyleSheet, SafeAreaView} from 'react-native'
+import ParImpar from './components/ParImpar'
 
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
@@ -10,7 +10,7 @@ import Diferenciar from './components/Diferenciar'
 // import Botao from './components/Botao'
 
 export default () => (
-    <View style={style.App}>
+    <SafeAreaView style={style.App}>
         {/* <Primeiro> </Primeiro> 
         <Text>{1+1}</Text>
         <X />
@@ -24,10 +24,11 @@ export default () => (
         {/* <Contador inicial={3} passo={4}></Contador> */}
         {/* <Pai/> */}
         {/* <ContadorV2 /> */}
-        <Diferenciar/>
+        {/* <Diferenciar/> */}
+        <ParImpar num = {3} />
 
 
-    </View> 
+    </SafeAreaView> 
 
     // Uma das possiblidade de chamar mais de uma props dentro de um unico elemento é a seguinte:
     // <React.Fragment> <Principal principal="Cadastro de Produto" secundario="Entre com os dados <Principal/> <React.Frgament/>
