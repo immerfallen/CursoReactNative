@@ -1,7 +1,9 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView} from 'react-native'
-import ParImpar from './components/ParImpar'
 
+import Familia from './components/relacao/Familia'
+
+import Membro from './components/relacao/Membro'
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
 // import MinMax from './components/MinMax'
@@ -25,7 +27,15 @@ export default () => (
         {/* <Pai/> */}
         {/* <ContadorV2 /> */}
         {/* <Diferenciar/> */}
-        <ParImpar num = {3} />
+        {/* <ParImpar num = {3} /> */}
+        <Familia> 
+            <Membro nome="Bia" sobrenome ="Arruda"/>
+            <Membro nome="Joana" sobrenome ="Arruda"/>
+        </Familia>
+        <Familia> 
+            <Membro nome="Bia" sobrenome ="Freire"/>
+            <Membro nome="Joana" sobrenome ="Freire"/>
+        </Familia>
 
 
     </SafeAreaView> 
