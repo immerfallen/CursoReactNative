@@ -1,6 +1,7 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView} from 'react-native'
-import UsuarioLogado from './components/UsuarioLogado'
+import  ListaProdutos from './components/produtos/ListaProdutos'
+// import UsuarioLogado from './components/UsuarioLogado'
 // import Primeiro from './components/Primeiro'
 // import X, {Comp1, Comp2 } from './components/MultiComponents' //Esse X é o componente oficial (default) exportado de MultiComponents
 // import MinMax from './components/MinMax'
@@ -33,8 +34,9 @@ export default () => (
             <Membro nome="Bia" sobrenome ="Freire"/>
             <Membro nome="Joana" sobrenome ="Freire"/>
         </Familia> */}
-        <UsuarioLogado usuario={{nome: 'Gui', email: 'gui@gui.com'}}/>
-        <UsuarioLogado usuario={{nome: 'MAro', email: 'maro@gui.com'}}/>
+        {/* <UsuarioLogado usuario={{nome: 'Gui', email: 'gui@gui.com'}}/>
+        <UsuarioLogado usuario={{nome: 'MAro', email: 'maro@gui.com'}}/> */}
+        <ListaProdutos/>
 
 
     </SafeAreaView> 
