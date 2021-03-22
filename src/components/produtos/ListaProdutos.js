@@ -2,7 +2,7 @@ import React from 'react'
 import {View, Text} from 'react-native'
 import Estilo from '../estilo'
 import produtos from './produtos'
-import Produtos from './produtos'
+
 export default props => {
     function obterLista() {
         return produtos.map(p => {
