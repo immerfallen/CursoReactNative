@@ -1,7 +1,7 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView} from 'react-native'
-import FlexboxV1 from './components/layout/FlexboxV1'
-import Quadrado from './components/layout/FlexboxV1'
+import FlexboxV2 from './components/layout/FlexboxV2'
+
 
 // import UsuarioLogado from './components/UsuarioLogado'
 // import Primeiro from './components/Primeiro'
@@ -41,7 +41,7 @@ export default () => (
         {/* <ListaProdutos/> */}
         {/* <ListaProdutosV2/> */}
         {/* <DigiteSeuNome/> */}
-        <FlexboxV1/>
+        <FlexboxV2/>
         
 
 
@@ -61,7 +61,7 @@ const style = StyleSheet.create({
         justifyContent:"center",
         alignItems: "center",
         padding:20,
-        
+               
         
     }
 })

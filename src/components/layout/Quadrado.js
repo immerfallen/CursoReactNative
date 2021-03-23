@@ -14,6 +14,3 @@ export default props => {
     )
 }
 
-const style = StyleSheet.create({
-
-})
