@@ -10,7 +10,6 @@ export default props => {
              placeholder="Digite seu Nome"
              value={nome}
              onChangeText={nome => setNome(nome) }
-
              />
          </View>
     )
