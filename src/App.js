@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView} from 'react-native'
-import FlexboxV4 from './components/layout/FlexboxV4'
+import Mega from './components/megaSena/Mega'
 
 
 // import UsuarioLogado from './components/UsuarioLogado'
@@ -41,7 +41,8 @@ export default () => (
         {/* <ListaProdutos/> */}
         {/* <ListaProdutosV2/> */}
         {/* <DigiteSeuNome/> */}
-        <FlexboxV4/>
+        {/* <FlexboxV4/> */}
+        <Mega qtdeNumeros = {7} />
         
 
 
