@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView} from 'react-native'
-import FlexboxV2 from './components/layout/FlexboxV2'
+import FlexboxV3 from './components/layout/FlexboxV3'
 
 
 // import UsuarioLogado from './components/UsuarioLogado'
@@ -41,7 +41,7 @@ export default () => (
         {/* <ListaProdutos/> */}
         {/* <ListaProdutosV2/> */}
         {/* <DigiteSeuNome/> */}
-        <FlexboxV2/>
+        <FlexboxV3/>
         
 
 
