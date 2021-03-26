@@ -42,7 +42,7 @@ export default () => (
         {/* <ListaProdutosV2/> */}
         {/* <DigiteSeuNome/> */}
         {/* <FlexboxV4/> */}
-        <Mega qtdeNumeros = {7} />
+        <Mega />
         
 
 
